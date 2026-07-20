@@ -6,6 +6,16 @@ The application allows users to paste a news article and predicts whether it is 
 
 ---
 
+## 🌐 Live Demo
+
+🚀 **Click here to use the application**
+
+👉 **[Launch Fake News Detection App](https://fake-news-detection-system-a3kk6tyq3rafsuhj7zxman.streamlit.app)**
+
+---
+
+---
+
 ## 🚀 Features
 
 - ✅ Detects whether a news article is Real or Fake
