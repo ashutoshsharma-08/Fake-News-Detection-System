@@ -53,3 +53,20 @@ Fake-News-Detection/
 │
 └── WELFake_Dataset.csv
 ```
+## 📷 Application Screenshots
+
+### Home Page
+
+![Home Page](screenshots/home.png)
+
+---
+
+### Real News Prediction
+
+![Real News](screenshots/real_prediction.png)
+
+---
+
+### Fake News Prediction
+
+![Fake News](screenshots/fake_prediction.png)
