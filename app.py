@@ -10,10 +10,19 @@ from nltk.tokenize import word_tokenize
 # -------------------------------------
 # Download NLTK Resources
 # -------------------------------------
-nltk.download("punkt")
-nltk.download("stopwords")
-nltk.download("wordnet")
+import ssl
 
+try:
+    _create_unverified_https_context = ssl._create_unverified_context
+except AttributeError:
+    pass
+else:
+    ssl._create_default_https_context = _create_unverified_https_context
+
+nltk.download("punkt", quiet=True)
+nltk.download("punkt_tab", quiet=True)
+nltk.download("stopwords", quiet=True)
+nltk.download("wordnet", quiet=True)
 # -------------------------------------
 # Create Lemmatizer
 # -------------------------------------
