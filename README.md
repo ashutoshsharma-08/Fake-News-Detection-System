@@ -1,5 +1,15 @@
 # 📰 Fake News Detection System
 
+# AI-Powered Fake News Detection System
+
+## 🚀 Live Demo
+
+👉 **[Launch Fake News Detection System](https://fake-news-detection-system-a3kk6tyq3rafsuhj7zxman.streamlit.app)**
+
+## 📂 GitHub Repository
+
+https://github.com/ashutoshsharma-08/Fake-News-Detection-System
+
 An AI-powered Fake News Detection web application built using **Machine Learning**, **Natural Language Processing (NLP)**, and **Streamlit**.
 
 The application allows users to paste a news article and predicts whether it is **Real** or **Fake** using a trained Neural Network model.
